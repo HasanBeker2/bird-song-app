@@ -1,5 +1,5 @@
-button {
-  background-color: #4CAF50; /* Green */
+ button {
+  background-color: #4CAF50; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -9,8 +9,21 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-}
+  border-radius: 5%; /* makes the button round */
+  box-shadow: 2px 2px 4px #888888; /* adds a shadow */
+  transition: all 0.3s ease-in-out;
+  transform: rotateX(15deg) rotateY(-15deg);
+  transition: all 0.3s ease-in-out;
+} 
 
 button:hover {
   background-color: #3e8e41;
-}
+  box-shadow: 5px 5px 10px #888888; /* increases the shadow on hover */
+  transform: translateY(-2px); /* gives the button a pressed effect */
+  transform: rotateX(0deg) rotateY(0deg);
+  box-shadow: 5px 5px 10px #888888;
+} 
+
+
+
+

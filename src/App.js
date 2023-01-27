@@ -30,8 +30,8 @@ function App() {
   return (
     <div>
       <h1>Bird Song Selection App</h1>
-      <button onClick={toggle1}>Caspian Tern 1</button>
-      <button onClick={toggle2}>Caspian Tern 2</button>
+      <button  onClick={toggle1}>Caspian Tern 1</button>
+      <button  onClick={toggle2}>Caspian Tern 2</button>
     </div>
   );
 }
